@@ -1,3 +1,40 @@
+## 📌 **Author**
+
+* Name: **MUHAMMED FIYAS**  
+* Roll no.: **DA25M018**  
+* *M.Tech DS&AI, IIT Madras*
+
+---
+
+# 📊 **DA5401 Assignment 7 – Multi-Class Model Selection using ROC and Precision–Recall Curves**
+
+This project focuses on evaluating multiple machine learning classifiers for a **multi-class satellite image classification** problem using the **UCI Landsat Satellite dataset**.  
+The analysis emphasizes **Receiver Operating Characteristic (ROC)** and **Precision–Recall Curve (PRC)** techniques to identify the most effective model beyond simple accuracy metrics.
+
+---
+
+## 🎯 **Objective**
+
+The goal of this assignment is to perform **model selection** by analyzing classifier performance across different thresholds using **ROC-AUC** and **PRC-AP** metrics in a multi-class setting.
+
+We aim to:
+1. Train six baseline classifiers spanning good, moderate, and poor performance levels.  
+2. Compute **ROC** and **Precision–Recall** curves using the **One-vs-Rest (OvR)** approach.  
+3. Compare models using **macro-averaged** and **micro-averaged** metrics.  
+4. Interpret results and recommend the best model for the task.
+
+> 💡 *Note:* The **bonus models** (Random Forest, XGBoost, and an Inverted Classifier) were seamlessly included within the same workflow for comparative analysis instead of being treated as a separate section.
+
+---
+
+## 📂 **Project Structure**
+
+```
+DAL_LAB_Assignment7/
+├── assignment7.ipynb # Jupyter Notebook (analysis, models, visualizations)
+└── README.md        # Project documentation
+
+```
 
 ---
 
@@ -83,3 +120,4 @@ Dataset: [UCI Landsat Satellite](https://archive.ics.uci.edu/ml/datasets/Statlog
 
 This assignment demonstrates how **ROC-AUC** and **Precision–Recall Curves** provide deeper insights into model behavior than raw accuracy metrics.  
 Through systematic comparison, we identified **Random Forest** as the most balanced and robust model for the multi-class satellite classification problem — achieving excellence in both discrimination and retrieval quality across varying decision thresholds.
+
